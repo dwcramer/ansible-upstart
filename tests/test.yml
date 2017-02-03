@@ -2,6 +2,6 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - role: telusdigital.logrotate
+    - role: dwcramer.logrotate
       logrotate_name: upstart
     - role: ansible-upstart
